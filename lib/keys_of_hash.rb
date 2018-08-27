@@ -6,5 +6,6 @@ class Hash
     map do |key,value|
      if arg == value
    listOfKeys << key
-    
-      end
+  end
+  listOfKeys
+end
