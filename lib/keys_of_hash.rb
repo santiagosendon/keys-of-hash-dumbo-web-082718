@@ -5,6 +5,7 @@ class Hash
     map do |key,value|
      if arg == value
    listOfKeys << key
+     listOfkeys
       end
      end
   
