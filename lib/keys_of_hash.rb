@@ -4,8 +4,8 @@ class Hash
  argument.each do |arg|
     map do |key,value|
      if arg == value
-   listOfKeys<< key
+   listOfKeys << key
       end
      end
-    
+    listOfkeys
 end
